@@ -4,6 +4,14 @@
 
 > This project template is in an early stage. Feel free to open up issues if you find any or help by submitting PRs.
 
+-   [Features](#features)
+-   [Requirements](#requirements)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Roadmap](#roadmap)
+-   [Changelog](#changelog)
+-   [License](#license)
+
 ## Features
 
 -   **Composer** based Kirby workflow for easy updating the core and adding modules
@@ -25,7 +33,7 @@ Also, for all that frontend stuff like Webpack, Babel and more you need to have 
 1. Just clone this repo:
 
 ```bash
-git clone URL myproject
+git clone git@github.com:FNGR2911/murby.git myproject
 ```
 
 2. Go into your new project directory:
