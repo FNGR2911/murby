@@ -1,8 +1,8 @@
 # Murby
 
-**A plain Kirby 3 starterkit on steroids.** You get a composer based workflow, a modern asset pipeline with Webpack, Sass, Babel, a live reload server, and much more. Murby just wants to help you quickly start developing and maybe saves you a few hours set up time.
+**A plain Kirby 3 starterkit on steroids. 🚀** You get a composer based workflow, a modern asset pipeline with Webpack, Sass, Babel, a live reload server, and much more. Murby just wants to help you quickly start developing and maybe saves you a few hours set up time.
 
-> This project template is in an early stage. Feel free to open up issues if you find any or help by submitting PRs.
+> ⚠️ This project template is in an early stage. Feel free to open up issues if you find any or help by submitting PRs.
 
 -   [Features](#features)
 -   [Requirements](#requirements)
@@ -13,7 +13,7 @@
 
 ## Features
 
--   **Composer** based Kirby workflow for easy updating the core and adding modules
+-   **Composer** based Kirby workflow for easy updating the core and adding plugins
 -   A **webpack** configuration with Sass, Babel, Postcss and autoprefixer, Imagemin and more
 -   **Live reloading** when you change anything to your assets like JavaScript or Sass
 -   Easy **npm scripts** to start developing in no time and build optimized assets for production
