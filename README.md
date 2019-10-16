@@ -9,8 +9,6 @@
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Deployment](#deployment)
--   [Roadmap](#roadmap)
--   [Changelog](#changelog)
 -   [License](#license)
 
 ## Features
@@ -76,14 +74,6 @@ npm run build
 ## Deployment
 
 Deployment is exactly like deploying a normal Kirby project with one exception: Your web servers root should point to the `/web` directory and not the root directory of your project. You should also run `npm run build` to get optimized frontend assets before deploying to production ;)
-
-## Roadmap
-
-TBA.
-
-## Changelog
-
-TBA.
 
 ## License
 
