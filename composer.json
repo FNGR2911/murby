@@ -2,7 +2,7 @@
   "name": "murby",
   "description": "Murby – a Kirby 3 plainkit on steroids!",
   "type": "project",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [
     "kirby",
     "cms",

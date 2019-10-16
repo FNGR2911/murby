@@ -9,6 +9,7 @@
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Deployment](#deployment)
+-   [Roadmap](#roadmap)
 -   [License](#license)
 
 ## Features
@@ -25,7 +26,7 @@ Of course you need to fullfil all [Kirby requirements](https://getkirby.com/docs
 
 For development purposes this project uses the built-in PHP server. Of course you can also use MAMP, XAMPP, or everything else. You just have to adjust the NPM scripts to fit your environment. Since this starterkit uses the composer based workflow, you need to have that [installed on your machine](https://getcomposer.org/doc/00-intro.md).
 
-Also, for all that frontend stuff like Webpack, Babel and more you need to have Node.js (>10) and NPM (>5) installed on your machine. [Find out more](https://www.npmjs.com/get-npm).
+Also, for all that frontend stuff like Webpack, Babel and more you need to have Node.js (>= 10.0.0) and NPM (>= 6.0.0) installed on your machine. [Find out more](https://www.npmjs.com/get-npm).
 
 ## Installation
 
@@ -65,6 +66,8 @@ npm run start
 
 The start script starts Webpack in watch mode, the built-in PHP webserver on `http://localhost:8282` and opens that site in your default browser.
 
+Your source assets are stored in the `/assets` folder.
+
 To build the frontend assets for production run:
 
 ```bash
@@ -74,6 +77,11 @@ npm run build
 ## Deployment
 
 Deployment is exactly like deploying a normal Kirby project with one exception: Your web servers root should point to the `/web` directory and not the root directory of your project. You should also run `npm run build` to get optimized frontend assets before deploying to production ;)
+
+## Roadmap
+
+-   [ ] Remove all unnecessary files and folders from `/web`
+-   [ ] Ideas? Suggestions? Feel free to open PR or Issue!
 
 ## License
 

@@ -1,5 +1,4 @@
 const path = require('path')
-const DashboardPlugin = require('webpack-dashboard/plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminMozjpeg = require('imagemin-mozjpeg')
@@ -37,8 +36,7 @@ const commonConfig = {
             loader: 'css-loader'
           },
           {
-            loader: 'postcss-loader',
-            options: {}
+            loader: 'postcss-loader'
           },
           {
             loader: 'sass-loader',
@@ -69,7 +67,6 @@ const commonConfig = {
       test: /\.(jpe?g|png|gif)$/i,
       plugins: [imageminMozjpeg({ quality: 100, progressive: true })]
     }),
-    new DashboardPlugin(),
     new WebpackNotifierPlugin({ title: 'Webpack', alwaysNotify: true })
   ]
 }
