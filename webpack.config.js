@@ -53,7 +53,7 @@ const commonConfig = {
         loader: 'url-loader',
         options: {
           name: '[name].[hash].[ext]',
-          outputPath: 'assets/images/',
+          outputPath: '/images/',
           publicPath: '../images/',
           limit: 8192
         }
