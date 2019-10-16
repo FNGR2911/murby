@@ -1,8 +1,8 @@
-Title: murbys Home
+Title: Welcome
 
 ----
 
-Text: Start building your Kirby 3 Site!
+Text: This is just demo content for your site. Now start building your Kirby site.
 
 ---- 
 

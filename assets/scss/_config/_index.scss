@@ -1,1 +1,24 @@
-// Placeholder
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+
+  > * {
+    max-width: 350px;
+  }
+
+  #logo {
+    max-width: 250px;
+
+    svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
