@@ -8,6 +8,7 @@
 -   [Requirements](#requirements)
 -   [Installation](#installation)
 -   [Usage](#usage)
+-   [Deployment](#deployment)
 -   [Roadmap](#roadmap)
 -   [Changelog](#changelog)
 -   [License](#license)
@@ -18,7 +19,7 @@
 -   A **webpack** configuration with Sass, Babel, Postcss and autoprefixer, Imagemin and more
 -   **Live reloading** when you change anything to your assets like JavaScript or Sass
 -   Easy **npm scripts** to start developing in no time and build optimized assets for production
--   A pretty basic template scructure with Header, Footer, Treemenu, etc.
+-   A pretty **basic template** scructure with Header, Footer, Treemenu, etc.
 
 ## Requirements
 
@@ -71,6 +72,10 @@ To build the frontend assets for production run:
 ```bash
 npm run build
 ```
+
+## Deployment
+
+Deployment is exactly like deploying a normal Kirby project with one exception: Your web servers root should point to the `/web` directory and not the root directory of your project. You should also run `npm run build` to get optimized frontend assets before deploying to production ;)
 
 ## Roadmap
 
