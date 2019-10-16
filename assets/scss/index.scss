@@ -1,0 +1,7 @@
+/** Reset with sanitize.css **/
+@import '../../node_modules/sanitize.css/sanitize.css';
+@import '../../node_modules/sanitize.css/typography.css';
+@import '../../node_modules/sanitize.css/forms.css';
+
+/** Custom **/
+@import '_config/index';

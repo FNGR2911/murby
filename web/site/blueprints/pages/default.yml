@@ -1,0 +1,11 @@
+title: Default Page
+
+tabs:
+  # content tab
+  content:
+    label: Content
+    icon: text
+    preset: page
+
+  # seo tab
+  meta: tabs/meta

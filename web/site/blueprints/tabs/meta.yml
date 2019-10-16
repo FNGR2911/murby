@@ -1,0 +1,16 @@
+label: Meta Tags
+icon: search
+
+sections:
+  content:
+    width: 1/2
+    type: fields
+    fields:
+      metaTitle:
+        label: Title
+        type: text
+        width: 1/2
+      metaDescription:
+        label: Description
+        type: text
+        width: 1/2

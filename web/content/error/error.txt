@@ -1,0 +1,13 @@
+Title: Error
+
+----
+
+Text: Something went wrong.
+
+----
+
+Metatitle: 
+
+----
+
+Metadescription: 

@@ -1,0 +1,13 @@
+Title: murbys Home
+
+----
+
+Text: Start building your Kirby 3 Site!
+
+---- 
+
+Metatitle: Welcome to murby!
+
+----
+
+Metadescription: This is the meta description for Home.

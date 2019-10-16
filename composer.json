@@ -1,0 +1,32 @@
+{
+  "name": "murby",
+  "description": "Murby – a Kirby 3 plainkit on steroids!",
+  "type": "project",
+  "version": "0.0.1",
+  "keywords": [
+    "kirby",
+    "cms",
+    "plainkit",
+    "webpack",
+    "sass",
+    "babel"
+  ],
+  "authors": [
+    {
+      "name": "Matthias",
+      "email": "matthias@faenger.de",
+      "homepage": "https://matti.dev/"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "getkirby/cms": "^3.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "kirby-cms-path": "web/kirby",
+    "kirby-plugin-path": "web/site/plugins"
+  }
+}
