@@ -6,7 +6,7 @@
     "server": "php -S localhost:8282 -t web",
     "dev": "webpack --mode=development --watch",
     "build": "rm -rf ./web/assets && webpack --mode=production",
-    "start": "concurrently \"npm:server\" \"npm:dev\" \"open-cli http://localhost:8282\""
+    "start": "concurrently \"npm:dev\" \"npm:server\""
   },
   "author": "Matthias Fänger <matthias@faenger.de> (https://matti.dev/)",
   "engines": {
@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.5.4",
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
+    "concurrently": "^5.0.0",
     "css-loader": "^3.0.0",
     "cssnano": "^4.1.10",
     "file-loader": "^4.0.0",
