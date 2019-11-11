@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "assets/js/index.js",
   "scripts": {
-    "server": "php -S localhost:8282 -t web",
+    "server": "php -S localhost:8282 -t web web/kirby/router.php",
     "dev": "webpack --mode=development --watch",
     "build": "rm -rf ./web/assets && webpack --mode=production",
     "start": "concurrently \"npm:dev\" \"npm:server\""
