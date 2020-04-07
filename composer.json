@@ -2,7 +2,7 @@
   "name": "murby",
   "description": "Murby – a Kirby 3 plainkit on steroids!",
   "type": "project",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "kirby",
     "cms",
@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=7.2.0",
     "getkirby/cms": "^3.0"
   },
   "config": {
