@@ -1,8 +1,8 @@
 {
-  "name": "murby",
+  "name": "fngr2911/murby",
   "description": "Murby – a Kirby 3 plainkit on steroids!",
   "type": "project",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "keywords": [
     "kirby",
     "cms",
@@ -19,8 +19,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.0",
-    "getkirby/cms": "^3.0"
+    "php": ">=7.3.0",
+    "getkirby/cms": "^3.3"
   },
   "config": {
     "optimize-autoloader": true
