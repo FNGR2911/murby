@@ -2,7 +2,7 @@ Title: Welcome
 
 ----
 
-Text: This is just demo content for your site. Now start building your Kirby site.
+Bodytext: This is just demo content for your site. Now start building your Kirby site.
 
 ---- 
 

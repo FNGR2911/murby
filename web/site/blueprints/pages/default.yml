@@ -5,7 +5,12 @@ tabs:
   content:
     label: Content
     icon: text
-    preset: page
+    fields:
+      bodytext:
+        label: Bodytext
+        type: textarea
+        counter: true
+        size: medium
 
   # seo tab
   meta: tabs/meta

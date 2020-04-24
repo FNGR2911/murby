@@ -1,25 +1,22 @@
-#container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+body {
   width: 100vw;
   height: 100vh;
-  padding: 20px;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  place-items: center;
+  text-align: center;
+}
 
-  > * {
-    max-width: 350px;
-  }
+header,
+footer {
+  color: rgba(0, 0, 0, 0.5);
+}
 
-  #logo {
-    max-width: 250px;
-    margin: 0 auto;
+header a {
+  display: block;
+}
 
-    svg {
-      display: block;
-      max-width: 100%;
-      height: auto;
-    }
-  }
+header a svg {
+  width: 200px;
+  height: auto;
 }
